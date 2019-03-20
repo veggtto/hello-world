@@ -23,6 +23,6 @@ public class Main {
 
 
     public static void main(String [] args){
-     System.out.println(Float.parseFloat("1.99995555559999"));
+     System.out.println(Float.parseFloat("1.999933339999"));
     }
 }
