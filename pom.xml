@@ -18,6 +18,14 @@
 		<java.version>11</java.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>AsposeJavaAPI</id>
+			<name>Aspose Java API</name>
+			<url>http://repository.aspose.com/repo/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -34,6 +42,21 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.esotericsoftware</groupId>
+			<artifactId>reflectasm</artifactId>
+			<version>1.11.9</version>
+		</dependency>
+	<!--	<dependency>
+			<groupId>edu.princeton.cs</groupId>
+			<artifactId>algs4</artifactId>
+			<version>1.0.4</version>
+		</dependency>-->
+		<dependency>
+			<groupId>org.redisson</groupId>
+			<artifactId>redisson</artifactId>
+			<version>3.14.0</version>
 		</dependency>
 	</dependencies>
 
